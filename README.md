@@ -1,8 +1,35 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome mikedunlop101,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+MY Mindfullness Project
+
+Strategy
+
+The aim is to build a relevant website that adds to the existing community of mindfullness websites that are currently on the Net. The website will be based on research 
+of infiormation currently available on well known sites. This site aims to be different in that it is completely free and does not generate a income. Though donations towards it's upkeep are welcome. The main focus will be B 2 C, as its the ordinary persons struggling through life who will benefit the most. There is a opportunity that a community can be developed from a self help group that will be created within the website. The website will be managed by Michael Dunlop on a voluntary basis.
+
+Scope Plane
+
+After some consultation with friends and family and within keeping in line with the already documented strategy this site will be fairly simple in design with a minimum amout of documentation, but enough to make all its objectives clear. There will be due consideration for what the user needs, what they dont need and what they dont know that they need. Within the scope of this project the project will conform to W3C and CSS standards and will be easy for the user to navigate with or without impaired vision.
+
+The Structure Plane
+
+The design shall be consistent through out the web site with the design structure being very closely aligned between the pages. Navigation will be predictable and events will happen as the user expects, such as hyper links between pages. Information will be presented in a clear way so that the user learns through their experience of the web site. It will be visually pleasing to the eye with attractive images and video links. Users will get the opportunity to subscribe and join a database of like minded individuals who will be able to register for events and coffee meets in the local area. Users will never be more than three clicks away from where they need to navigate too.
+
+Skeleton Plane
+
+The site will be compliant with visual conventions and the user experience will get what they need when they want it. It is generally accepted that for most users the system is the UI, they will assess the value of the site by what they see. The site will initially consist of four pages packed full of information and will be compliant with different screen sizes, such as mobile phones and tablets.
+
+Surface Plane
+
+The user experience will provide a visual language that is easy on the eye. the site will provide interesting and attractive color. The content will be progressively presented such as color contrasts, font contrasts and the header and footer will be consistent. users will be able to access audio and visual content
+and through its feedback facility will be able to grow with updated material on a weekly basis.
+
+Documentation of Mindfullness website creation (how it was created and updated)
+
+
+This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. 
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
