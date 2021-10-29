@@ -13,6 +13,9 @@ Scope Plane
 
 After some consultation with friends and family and within keeping in line with the already documented strategy this site will be fairly simple in design with a minimum amout of documentation, but enough to make all its objectives clear. There will be due consideration for what the user needs, what they dont need and what they dont know that they need. Within the scope of this project the project will conform to W3C and CSS standards and will be easy for the user to navigate with or without impaired vision.
 
+
+
+
 The Structure Plane
 
 The design shall be consistent through out the web site with the design structure being very closely aligned between the pages. Navigation will be predictable and events will happen as the user expects, such as hyper links between pages. Information will be presented in a clear way so that the user learns through their experience of the web site. It will be visually pleasing to the eye with attractive images and video links. Users will get the opportunity to subscribe and join a database of like minded individuals who will be able to register for events and coffee meets in the local area. Users will never be more than three clicks away from where they need to navigate too.
@@ -27,8 +30,8 @@ The user experience will provide a visual language that is easy on the eye. the 
 and through its feedback facility will be able to grow with updated material on a weekly basis.
 
 Documentation of Mindfullness website creation (how it was created and updated)
-
-
+ 
+The first task i performed was to create a template for git pod use. Once that was completed i created a index.html file and saved it. I needed a guide to set up my file structure so i viewed some videos from the love running web site creation. i acknowledge observing the creation of the site structure from love running, but put my own stamp on it. i want my website to be different, however love running has some great techniques that can be borrowed. Like i said though ive put my own creativity to it and will minimumise taking code from love running and copy and pasting it. This is my own work. Now i have my site structure in place i will look to add elements that are not in love running, and are completely my own work.
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. 
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**

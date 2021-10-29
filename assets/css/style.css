@@ -21,3 +21,19 @@ h1,h2,h3 {
     float: left;
     font-size: 175%;
 }
+#main_heading, #navigation_links {
+    line-height: 80px;
+}
+#navigation_links {
+    font-size: 125%;
+    text-rendering: geometricPrecision;
+
+}
+#navigation_links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+#navigation_links a {
+    text-decoration: none;
+}
