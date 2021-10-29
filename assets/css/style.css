@@ -1,7 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Zen+Old+Mincho&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
-    color:blueviolet
+    /*color:blueviolet;*/
+    font-family: arial, sans-serif;
+}
+/* headings */
+
+h1,h2,h3 {
+    font-family: arial, sans-serif;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    color: navy;
+}
+#main_heading {
+    float: left;
+    font-size: 175%;
 }
