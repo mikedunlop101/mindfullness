@@ -37,3 +37,12 @@ h1,h2,h3 {
 #navigation_links a {
     text-decoration: none;
 }
+#mindfulness-image {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
