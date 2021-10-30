@@ -44,5 +44,28 @@ h1,h2,h3 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    padding: 20px;
     
+}
+#text-blocks {
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.table_style {
+    width: 600px;
+    align-items: center;
+}
+.opt_in_form {
+
+}
+
+.register {
+
+margin: 175px 10% 0 0;
+color: antiquewhite;
 }

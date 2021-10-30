@@ -34,6 +34,8 @@ Documentation of Mindfullness website creation (how it was created and updated)
 The first task i performed was to create a template for git pod use. Once that was completed i created a index.html file and saved it. I needed a guide to set up my file structure so i viewed some videos from the love running web site creation. i acknowledge observing the creation of the site structure from love running, but put my own stamp on it. i want my website to be different, however love running has some great techniques that can be borrowed. Like i said though ive put my own creativity to it and will minimumise taking code from love running and copy and pasting it. This is my own work. Now i have my site structure in place i will look to add elements that are not in love running, and are completely my own work.
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. 
 
+I obtained my mindfulness-image.jpg from https://www.google.com/search?client=firefox-b-d&q=free+mindfulness+images .
+
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
