@@ -89,7 +89,7 @@ padding: 35px;
    width: 100%;
    height: 30px; 
    margin: 10px 0 25px 0;
-   text: bold;
+   font-weight: bold;
 }
 #opt_in {
    margin-top: 20px;
