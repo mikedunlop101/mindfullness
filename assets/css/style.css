@@ -61,11 +61,31 @@ h1,h2,h3 {
     align-items: center;
 }
 .opt_in_form {
-
+    clear: left;
+    background: url("../images/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
 }
 
 .register {
 
-margin: 175px 10% 0 0;
-color: antiquewhite;
+margin: 10% 10% 0 0;
+color: rgb(14, 12, 13);
+max-width: 450px;
+position: absolute;
+left: 15%;
+padding: 35px;
+
+}
+.register h2{
+    color:rgb(14, 12, 13);
+    margin-bottom: 30px;
+}
+.text {
+   background: transparent 0.6;
+   width: 100%;
+   height: 30px; 
+   margin: 10px 0 25px 0;
+   text: bold;
 }

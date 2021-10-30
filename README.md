@@ -35,6 +35,9 @@ The first task i performed was to create a template for git pod use. Once that w
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. 
 
 I obtained my mindfulness-image.jpg from https://www.google.com/search?client=firefox-b-d&q=free+mindfulness+images .
+background image for sign up form was obtained from https://www.google.com/search?q=background+mindfulness+images&client=firefox-b-d&tbm=isch&source=iu&ictx=1&fir=0VaTMb8-fVqBAM%252Cd9YMEWS2ltOIoM%252C_%253BX8aPN8znMn8vaM%252CW0K1LHqAjaYYSM%252C_%253B-kPDLdJ6mlRwQM%252CbnVimVxlqjL7uM%252C_%253B_QMrAvJ3WEF9NM%252C5lSMAQ3cQDsmsM%252C_%253BPzRXsGfI3I3SwM%252CVj-LG71xNghXXM%252C_%253BuwWPkZg_Gfa0XM%252CbnVimVxlqjL7uM%252C_%253B3tsRzTOZqp5XEM%252CbgSx-jmh5ZoCxM%252C_%253B28XzOExTmkr_5M%252CczSOBlFDzc5gvM%252C_%253Bbp_Ti1HaDqjjZM%252C5lSMAQ3cQDsmsM%252C_%253BryAsjKGtUbRytM%252CVj-LG71xNghXXM%252C_%253B9SXk02OxxKi37M%252C-pk5ggifZ_itfM%252C_%253B_1DgIBa9wIfISM%252C-pk5ggifZ_itfM%252C_&vet=1&usg=AI4_-kQ42SD_JgeUTV6oagKZNOX9U1xJVQ&sa=X&ved=2ahUKEwjp_Mz1lvLzAhWQT8AKHdLxCVYQ9QF6BAgFEAE&biw=1536&bih=711&dpr=1.25#imgrc=9SXk02OxxKi37M
+
+I completed the sign_up page by using the work i had done on love running as a starting point. The code was my own, so i dont see it as plagurism. I added a new background image that was very befitting for a mindfulness website.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
