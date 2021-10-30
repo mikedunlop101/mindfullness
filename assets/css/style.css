@@ -71,7 +71,9 @@ h1,h2,h3 {
 .register {
 
 margin: 10% 10% 0 0;
-color: rgb(14, 12, 13);
+color:#fff;
+text-transform: uppercase;
+font-weight: 700;
 max-width: 450px;
 position: absolute;
 left: 15%;
@@ -79,7 +81,7 @@ padding: 35px;
 
 }
 .register h2{
-    color:rgb(14, 12, 13);
+    color:rgb(12, 11, 11);
     margin-bottom: 30px;
 }
 .text {
@@ -88,4 +90,17 @@ padding: 35px;
    height: 30px; 
    margin: 10px 0 25px 0;
    text: bold;
+}
+#opt_in {
+   margin-top: 20px;
+   padding: 12px 30px 12px 30px;
+   text-align: center;
+   font-size: 110%;
+   background-color: blueviolet;
+   color:#fff;
+   display: block;
+}
+#opt_in:hover {
+    background-color: blueviolet;
+    color: #fff;
 }
