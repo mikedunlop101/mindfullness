@@ -20,6 +20,8 @@ h1,h2,h3 {
 #main_heading {
     float: left;
     font-size: 175%;
+    margin-left: 35px;
+   
 }
 #main_heading, #navigation_links {
     line-height: 80px;
@@ -41,20 +43,36 @@ h1,h2,h3 {
     width: 400px;
     height: 300px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     margin: 0 auto;
     padding: 20px;
     
 }
-#text-blocks {
-    display: inline-block;
-    align-items: center;
-    justify-content: left;
+
+.left-side {
+    padding-top: 35px;
+    width: 50%;
     float: left;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+}
+/*moves text to the right hand side*/
+.right-side {
+    padding-top: 35px;
+    padding-right: 35px;
+    width: 50%;
+    float: right;
+
+#mindfulness-block > #text-blocks {
+     text-align: center;
+     /*padding-top: 30px; */
+     /*align-items: center;*/
+    /*justify-content: left;*/
+    /* float: center; */
+     /*margin: 0 auto;*/
+      
+        
+    }
+
 }
 .table_style {
     width: 600px;
@@ -84,6 +102,7 @@ padding: 35px;
     color:rgb(12, 11, 11);
     margin-bottom: 30px;
 }
+/*form elements styling */
 .text {
    background: transparent 0.6;
    width: 100%;
