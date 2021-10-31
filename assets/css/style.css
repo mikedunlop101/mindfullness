@@ -62,8 +62,14 @@ h1,h2,h3 {
     width: 50%;
     float: right;
 
-#mindfulness-block > #text-blocks {
-     text-align: center;
+#text-blocks {
+
+     /*text-align: center;*/
+     width: 60%;
+     float: right;
+     line-height: 17px;
+     clear: both;
+     margin-bottom: 60px
      /*padding-top: 30px; */
      /*align-items: center;*/
     /*justify-content: left;*/
