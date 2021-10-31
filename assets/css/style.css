@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,95 +8,121 @@ body {
     /*color:blueviolet;*/
     font-family: arial, sans-serif;
 }
+
 /* headings */
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: arial, sans-serif;
     text-transform: uppercase;
     text-rendering: geometricPrecision;
     color: navy;
 }
+
 #main_heading {
     float: left;
     font-size: 175%;
     margin-left: 35px;
-   
+
 }
-#main_heading, #navigation_links {
+
+#main_heading,
+#navigation_links {
     line-height: 80px;
 }
+
 #navigation_links {
     font-size: 125%;
     text-rendering: geometricPrecision;
 
 }
+
 #navigation_links li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
 }
+
 #navigation_links a {
     text-decoration: none;
 }
+
 #mindfulness-image {
     width: 400px;
     height: 300px;
-    /*display: flex;*/
-   /* align-items: right;*/
+    /*display: flex;
+    /* align-items: right;*/
     /*justify-content: flex-start;*/
-    /*margin: 0 auto;*/
+    /*margin: left;*/
     padding: 20px;
-    padding-top: 35px;
-    width: 33%;
-    display: flex;
-    justify-content: flex-start;
+    /*padding-top: 35px;*/
+    border-radius: 10%;
+    border-color: black 2px;*/
     
+
 }
+#mindfulness2 {
+    width: 400px;
+    height: 300px;
+    /*display: flex;
+     align-items: right;
+    justify-content: flex-end;
+    margin: 0 auto;*/
+    padding: 20px;
+    /*padding-top: 35px;*/
+    border-radius: 10%;
+    border-color: black 2px;*/
+}
+
 #mildfundnes {
     width: 400px;
     height: 300px;
-    /*display: flex;*/
-   /* align-items: right;*/
-    /*justify-content: flex-start;*/
-    /*margin: 0 auto;*/
+    /*display: inline-block;
+    position: relative;
+    /* align-items: right;*/
+    /*justify-content: flex-end;*/
+    /*margin: 0;*/
     padding: 20px;
-    padding-top: 35px;
-    width: 33%;
-    display:flex;
-    justify-content: flex-end;
+    /*padding-top: 35px;*/
+    border-radius: 10%;
+    border-color: black 2px;*/
 
 
 }
+
 /*moves text to the right hand side*/
-.center-text {
+/*.center-text {
     padding-top: 35px;
     padding-right: 35px;
     width: 33%;
     display: flex;
-    justify-content: center;
+    justify-content: center;*/
 
-#text-block {
+    /*#text-block {*/
 
-     /*text-align: center;*/
-   /*  width: 60%;
+        /*text-align: center;*/
+        /*  width: 60%;
      float: right;
      line-height: 17px;
      clear: both;
      margin-bottom: 60px*/
-     /*padding-top: 30px; */
-     /*align-items: center;*/
-    /*justify-content: left;*/
-    /* float: center; */
-     /*margin: 0 auto;*/
-      
-        
+        /*padding-top: 30px; */
+        /*align-items: center;*/
+        /*justify-content: left;*/
+        /* float: center; */
+        /*margin: 0 auto;
+
+
     }
 
-}
+}*/
+
 .table_style {
     width: 600px;
     align-items: center;
 }
+
 .opt_in_form {
     clear: left;
     background: url("../images/background-image.jpg");
@@ -108,37 +133,41 @@ h1,h2,h3 {
 
 .register {
 
-margin: 10% 10% 0 0;
-color:#fff;
-text-transform: uppercase;
-font-weight: 700;
-max-width: 450px;
-position: absolute;
-left: 15%;
-padding: 35px;
+    margin: 10% 10% 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 450px;
+    position: absolute;
+    left: 15%;
+    padding: 35px;
 
 }
-.register h2{
-    color:rgb(12, 11, 11);
+
+.register h2 {
+    color: rgb(12, 11, 11);
     margin-bottom: 30px;
 }
+
 /*form elements styling */
 .text {
-   background: transparent 0.6;
-   width: 100%;
-   height: 30px; 
-   margin: 10px 0 25px 0;
-   font-weight: bold;
+    background: transparent 0.6;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
 }
+
 #opt_in {
-   margin-top: 20px;
-   padding: 12px 30px 12px 30px;
-   text-align: center;
-   font-size: 110%;
-   background-color: blueviolet;
-   color:#fff;
-   display: block;
+    margin-top: 20px;
+    padding: 12px 30px 12px 30px;
+    text-align: center;
+    font-size: 110%;
+    background-color: blueviolet;
+    color: #fff;
+    display: block;
 }
+
 #opt_in:hover {
     background-color: blueviolet;
     color: #fff;
