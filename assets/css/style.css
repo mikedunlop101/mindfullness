@@ -98,8 +98,9 @@ h3 {
 }
 
 /*moves text to the right hand side*/
-/*.center-text {
-    padding-top: 35px;
+.center-text {
+    text-align: center;}
+    /*padding-top: 35px;
     padding-right: 35px;
     width: 33%;
     display: flex;
