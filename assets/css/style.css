@@ -56,7 +56,6 @@ h3 {
 #mindfulness-image {
     width: 450px;
     height: 350px;
-    
     /*display: flex;
     /* align-items: right;*/
     /*justify-content: flex-start;*/
@@ -121,9 +120,15 @@ h3 {
         /*margin: 0 auto;
 
 
-    }
+    }*/
+#lower-right-text {
+    padding-top: 45px;
+    float: right;
+    width: 40%;
+}
 
-}*/
+
+
 /*
 .table_style {
     width: 600px;
