@@ -7,6 +7,11 @@
 body {
     /*color:blueviolet;*/
     font-family: arial, sans-serif;
+    clear: left;
+    background: url("../images/background-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
 }
 
 /* headings */
@@ -49,8 +54,9 @@ h3 {
 }
 
 #mindfulness-image {
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
+    
     /*display: flex;
     /* align-items: right;*/
     /*justify-content: flex-start;*/
@@ -58,13 +64,13 @@ h3 {
     padding: 20px;
     /*padding-top: 35px;*/
     border-radius: 10%;
-    border-color: black 2px;*/
+    border-color: black 2px;
     
 
 }
 #mindfulness2 {
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     /*display: flex;
      align-items: right;
     justify-content: flex-end;
@@ -72,12 +78,13 @@ h3 {
     padding: 20px;
     /*padding-top: 35px;*/
     border-radius: 10%;
-    border-color: black 2px;*/
+    border-color: black 2px;
 }
 
 #mildfundnes {
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
+    float:right;
     /*display: inline-block;
     position: relative;
     /* align-items: right;*/
@@ -86,7 +93,7 @@ h3 {
     padding: 20px;
     /*padding-top: 35px;*/
     border-radius: 10%;
-    border-color: black 2px;*/
+    border-color: black 2px;
 
 
 }
@@ -117,11 +124,11 @@ h3 {
     }
 
 }*/
-
+/*
 .table_style {
     width: 600px;
     align-items: center;
-}
+}*/
 
 .opt_in_form {
     clear: left;
