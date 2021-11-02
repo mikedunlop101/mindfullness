@@ -4,10 +4,12 @@ Welcome mikedunlop101,
 
 MY Mindfullness Project
 
+The purpose of this project is to create a self help website for mindfulness for the local community of Swindon. It is a relatively simple site, but the emphasis is that active midfulness aware people can have a readily available resourse based in their local area. The intention is to include some self administered music and mindfulness videos on the about_us page. A table with meeting dates will be made available on the about_us page so that active midfulness people can meet up on a regular basis and share their stories and hopefully support each other.
+
 Strategy
 
 The aim is to build a relevant website that adds to the existing community of mindfullness websites that are currently on the Net. The website will be based on research 
-of infiormation currently available on well known sites. This site aims to be different in that it is completely free and does not generate a income. Though donations towards it's upkeep are welcome. The main focus will be B 2 C, as its the ordinary persons struggling through life who will benefit the most. There is a opportunity that a community can be developed from a self help group that will be created within the website. The website will be managed by Michael Dunlop on a voluntary basis.
+of information currently available on well known sites. This site aims to be different in that it is completely free and does not generate a income. Though donations towards it's upkeep are welcome. The main focus will be B 2 C, as its the ordinary persons struggling through life who will benefit the most. There is a opportunity that a community can be developed from a self help group that will be created within the website. The website will be managed by Michael Dunlop on a voluntary basis.
 
 Scope Plane
 
@@ -32,12 +34,15 @@ and through its feedback facility will be able to grow with updated material on 
 Documentation of Mindfullness website creation (how it was created and updated)
  
 The first task i performed was to create a template for git pod use. Once that was completed i created a index.html file and saved it. I needed a guide to set up my file structure so i viewed some videos from the love running web site creation. i acknowledge observing the creation of the site structure from love running, but put my own stamp on it. i want my website to be different, however love running has some great techniques that can be borrowed. Like i said though ive put my own creativity to it and will minimumise taking code from love running and copy and pasting it. This is my own work. Now i have my site structure in place i will look to add elements that are not in love running, and are completely my own work.
+
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions. 
 
 I obtained my mindfulness-image.jpg from https://www.google.com/search?client=firefox-b-d&q=free+mindfulness+images .
 background image for sign up form was obtained from https://www.google.com/search?q=background+mindfulness+images&client=firefox-b-d&tbm=isch&source=iu&ictx=1&fir=0VaTMb8-fVqBAM%252Cd9YMEWS2ltOIoM%252C_%253BX8aPN8znMn8vaM%252CW0K1LHqAjaYYSM%252C_%253B-kPDLdJ6mlRwQM%252CbnVimVxlqjL7uM%252C_%253B_QMrAvJ3WEF9NM%252C5lSMAQ3cQDsmsM%252C_%253BPzRXsGfI3I3SwM%252CVj-LG71xNghXXM%252C_%253BuwWPkZg_Gfa0XM%252CbnVimVxlqjL7uM%252C_%253B3tsRzTOZqp5XEM%252CbgSx-jmh5ZoCxM%252C_%253B28XzOExTmkr_5M%252CczSOBlFDzc5gvM%252C_%253Bbp_Ti1HaDqjjZM%252C5lSMAQ3cQDsmsM%252C_%253BryAsjKGtUbRytM%252CVj-LG71xNghXXM%252C_%253B9SXk02OxxKi37M%252C-pk5ggifZ_itfM%252C_%253B_1DgIBa9wIfISM%252C-pk5ggifZ_itfM%252C_&vet=1&usg=AI4_-kQ42SD_JgeUTV6oagKZNOX9U1xJVQ&sa=X&ved=2ahUKEwjp_Mz1lvLzAhWQT8AKHdLxCVYQ9QF6BAgFEAE&biw=1536&bih=711&dpr=1.25#imgrc=9SXk02OxxKi37M
 
-I completed the sign_up page by using the work i had done on love running as a starting point. The code was my own, so i dont see it as plagurism. I added a new background image that was very befitting for a mindfulness website.
+two more images were obtained from the same website linked above. I then added background images via css
+
+I completed the sign_up page by using the work i had done on love running as a starting point. The code was my own, so i dont see it as plagurism and it has been changed to reflect a fresh stamp of creativity. I added a new background image that was very befitting for a mindfulness website. https://unsplash.com/s/photos/mindfulness. This images change regularly so you may not see mine there.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
