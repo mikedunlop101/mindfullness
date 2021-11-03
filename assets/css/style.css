@@ -67,6 +67,11 @@ h3 {
     
 
 }
+#mindfulness2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #mindfulness2 {
     width: 450px;
     height: 350px;
