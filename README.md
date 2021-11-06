@@ -44,6 +44,12 @@ two more images were obtained from the same website linked above. I then added b
 
 I completed the sign_up page by using the work i had done on love running as a starting point. The code was my own, so i dont see it as plagurism and it has been changed to reflect a fresh stamp of creativity. I added a new background image that was very befitting for a mindfulness website. https://unsplash.com/s/photos/mindfulness. This images change regularly so you may not see mine there.
 
+I then added a copyright notice to the bottom of my web pages. i found i was unable to use the same piece of code for all pages, so had to seperately format them to fit at the centre bottom of each page.
+
+i also added a table to about us, informing readers of upcoming mindfullness events for November and December of this year.
+below the table i copied and pasted a video link with a inbedded video on mindfullness <iframe width="600" height="470" src="https://www.youtube.com/embed/AapsmyVBinA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>. This code was copied straight from its source https://mindfulnessexercises.com/self-discipline-through-mindfulness-how-to-become-more-disciplined/. 
+
+
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
