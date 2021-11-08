@@ -288,16 +288,41 @@ h3 {
              margin: 0;
          } 
          #mindfulness-image, #mindfulness2, #mildfundnes {
-             width: 100%;
+             width: 31%;
              float: left;
-             padding: 0.5rem;
+             padding: 0.2rem;
+             margin: 0 auto;
 
          }
          #lower-right-text {
              width: 100%;
              float: left;
              padding: 0rem;
+             color: #0000ff;
+         }
+         .footer-bottom p {
+            display:flex;
+            justify-content: center;
+            align-items: flex-end;
+
+
          }
         }
 
+        @media screen and (max-width: 950px) {
+
+        #main_heading,
+        #navigation_links {     
+        clear:left;
+        float:left;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
         
+        }
+        #mindfulness-image, #mindfulness2, #mildfundnes {
+            width: 90%;
+            height: 400px;
+            margin:auto;
+        }
+        }
