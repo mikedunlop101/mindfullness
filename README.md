@@ -47,9 +47,11 @@ I completed the sign_up page by using the work i had done on love running as a s
 I then added a copyright notice to the bottom of my web pages. i found i was unable to use the same piece of code for all pages, so had to seperately format them to fit at the centre bottom of each page.
 
 i also added a table to about us, informing readers of upcoming mindfullness events for November and December of this year.
-below the table i copied and pasted a video link with a inbedded video on mindfullness <iframe width="600" height="470" src="https://www.youtube.com/embed/AapsmyVBinA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>. This code was copied straight from its source https://mindfulnessexercises.com/self-discipline-through-mindfulness-how-to-become-more-disciplined/. 
+below the table i copied and pasted a video link with a inbedded video on mindfullness <iframe width="600" height="470" src="https://www.youtube.com/embed/AapsmyVBinA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>. This code was copied straight from its source https://mindfulnessexercises.com/self-discipline-through-mindfulness-how-to-become-more-disciplined/. 
 
 i then added semantics to the sign-up page, namely fieldset and legend. This was done to aid accessability for people who might otherwise find it difficult to use the form.
+
+I did some work on the screen sizes and ran into some difficulties. The images were working to a certain extent, but i found it difficult to get them how i wanted. i decided to ask my mentor when i next meet with him in a weeks time. Next on my list was to validate my HTML code through the W 3C Valdidator service. I had to make a few minor changes but my code was basically clean.
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
