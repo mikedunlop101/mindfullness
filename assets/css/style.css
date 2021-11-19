@@ -26,7 +26,9 @@ h3 {
 }
 
 #main_heading {
-    float: left;
+    /*float: left;*/
+    display:flex;
+    justify-content:flex-start;
     font-size: 175%;
     margin-left: 35px;
 
@@ -40,11 +42,18 @@ h3 {
 #navigation_links {
     font-size: 125%;
     text-rendering: geometricPrecision;
-
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-top: auto;
 }
 
 #navigation_links li {
-    float: right;
+    /*float: right;*/
+    /*display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items: flex-end;*/
     list-style-type: none;
     margin-right: 25px;
 }
