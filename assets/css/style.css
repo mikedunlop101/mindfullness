@@ -3,17 +3,18 @@
     padding: 0;
     border: 0;
 }
-
-body {
-    /*color:blueviolet;*/
+html, body {
+    height: 100%;
     font-family: arial, sans-serif;
     clear: left;
     background: url("../images/background-image2.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 1000px;
-}
-
+    }
+    
+        
+        
+   
 /* headings */
 
 h1,
@@ -49,11 +50,6 @@ h3 {
 }
 
 #navigation_links li {
-    /*float: right;*/
-    /*display:flex;
-    justify-content:flex-end;
-    flex-direction: row;
-    align-items: flex-end;*/
     list-style-type: none;
     margin-right: 25px;
 }
@@ -63,18 +59,13 @@ h3 {
 }
 #images {
     float:right;
-   /* padding:0 0 0 50%;*/
+   
 }
 
 #mindfulness-image {
     width: 450px;
     height: 350px;
-    /*display: flex;
-    /* align-items: right;*/
-    /*justify-content: flex-start;*/
-    /*margin: left;*/
     padding: 20px;
-    /*padding-top: 35px;*/
     border-radius: 10%;
     border-color: #000;
     
@@ -84,12 +75,7 @@ h3 {
 #mindfulness2 {
     width: 450px;
     height: 350px;
-    /*display: flex;
-     align-items: right;
-    justify-content: flex-end;
-    margin: 0 auto;*/
     padding: 20px;
-    /*padding-top: 35px;*/
     border-radius: 10%;
     border-color: #000;
 }
@@ -98,13 +84,7 @@ h3 {
     width: 450px;
     height: 350px;
     float:right;
-    /*display: inline-block;
-    position: relative;
-    /* align-items: right;*/
-    /*justify-content: flex-end;*/
-    /*margin: 0;*/
     padding: 20px;
-    /*padding-top: 35px;*/
     border-radius: 10%;
     border-color: #000;
 
@@ -125,7 +105,7 @@ h3 {
 
 .footer-bottom {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     padding-left: 40%;
 }
@@ -148,7 +128,7 @@ h3 {
     
 }
 .footer-bottom-about-us p{
-    padding-bottom: 102%;
+    padding-bottom: 172%;
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
@@ -177,10 +157,10 @@ h3 {
  .video {
      display:flex;
      justify-content: center;
-     align-items: center;
-     height: 140vh;
-     /*margin-bottom: 10%;*/
- }   
+     align-items:stretch;
+     height: 180vh;
+     
+    }   
 .video iframe {
     margin-bottom: 30%;
     
@@ -188,7 +168,7 @@ h3 {
 
 .opt_in_form {
     clear: left;
-    background: url("../images/background-image.jpg");
+    background: url("../images/background-image.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -275,7 +255,7 @@ h3 {
              width: 100%;
              float: left;
              padding: 0rem;
-             color: #0000ff;
+             
          }
          .footer-bottom p {
             display:flex;
@@ -316,10 +296,13 @@ h3 {
                 margin: 0 auto;  
              }
              
-             .footer-bottom-about-us p {
+             .footer-bottom-about-us  {
                 display:flex;
                 justify-content: center;
                 align-items: flex-end;
+                position: sticky;
+                bottom: -100vh;
+                    
     
                  }
         }

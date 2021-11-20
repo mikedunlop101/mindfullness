@@ -51,7 +51,17 @@ below the table i copied and pasted a video link with a inbedded video on mindfu
 
 i then added semantics to the sign-up page, namely fieldset and legend. This was done to aid accessability for people who might otherwise find it difficult to use the form.
 
-I did some work on the screen sizes and ran into some difficulties. The images were working to a certain extent, but i found it difficult to get them how i wanted. i decided to ask my mentor when i next meet with him in a weeks time. Next on my list was to validate my HTML code through the W 3C Valdidator service. I had to make a few minor changes but my code was basically clean.
+I did some work on the screen sizes and ran into some difficulties. The images were working to a certain extent, but i found it difficult to get them how i wanted. i decided to ask my mentor when i next meet with him in a weeks time. Next on my list was to validate my HTML code through the W 3C Valdidator service. I had to make a few minor changes but my code was basically clean. I did the same for CSS code validation.
+
+TESTING
+
+Run through The pages and ensure all links work..... All pages hyper link correctly
+Run Website on different screen sizes.... This partially works. the website is fine on my 15 inch laptop and large extended screen. There are some problems with running the website on mobile device screen sizes. Particularly the footer message. it floats all over the page and i have been unable to put it right.
+check image alt scripts are running correctly. i did this by distorting the image addresses to force up the alt image messages. alt messages display correctly.
+test the sign up form. input relevant data into form inputs and press submit. Form works well
+test form with unexpected data entry including incorrect email address. result is a pop up message saying a recognised email format is required.
+test form first name. So long as characters are input the form accepts entry on submittion. same is the case with last name. This is a area for future development using javascript.
+
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
 ## Gitpod Reminders
