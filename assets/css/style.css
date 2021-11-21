@@ -258,7 +258,7 @@ h3 {
 
              
         }
-
+/*smaller screen sizes*/
         @media screen and (max-width: 950px) {
 
         #main_heading,
@@ -290,3 +290,35 @@ h3 {
              
              
         }
+
+        @media screen and (max-width: 600px) {
+
+            #main_heading,
+            #navigation_links {     
+            clear:left;
+            float:left;
+            margin-left: 1.0rem;
+            margin-bottom: 1.0rem;
+            line-height: 1.0rem;
+            
+            }
+            #mindfulness-image, #mindfulness2, #mildfundnes {
+                width: 90%;
+                height: 300px;
+                margin:auto;
+            }
+            .table-style {
+                    width: 90%;
+                    float: left;
+                    padding: 0.2rem;
+                    margin: 0 auto;   
+                 }  
+                 .video {
+                    width: 90%;
+                    float: left;
+                    padding: 0.2rem;
+                    margin: 0 auto;  
+                 }
+                 
+                 
+            }
