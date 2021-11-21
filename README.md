@@ -53,6 +53,11 @@ i then added semantics to the sign-up page, namely fieldset and legend. This was
 
 I did some work on the screen sizes and ran into some difficulties. The images were working to a certain extent, but i found it difficult to get them how i wanted. i decided to ask my mentor when i next meet with him in a weeks time. Next on my list was to validate my HTML code through the W 3C Valdidator service. I had to make a few minor changes but my code was basically clean. I did the same for CSS code validation.
 
+![index.html](https://raw.githubusercontent.com/mikedunlop101/mindfullness/main/documentation/screenshots/Picture1.png)
+
+
+
+
 TESTING
 
 Run through The pages and ensure all links work..... All pages hyper link correctly
