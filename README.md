@@ -5,11 +5,11 @@ Welcome mikedunlop101,
 
 MY Mindfullness Project
 
-The purpose of this project is to create a self help website for mindfulness for the local community of Swindon. It is a relatively simple site, but the emphasis is that active midfulness aware people can have a readily available resourse based in their local area. The intention is to include some self administered music and mindfulness videos on the about_us page. A table with meeting dates will be made available on the about_us page so that active midfulness people can meet up on a regular basis and share their stories and hopefully support each other.
+The purpose of this project is to create a self help website for mindfulness for the local community of Swindon. It is a relatively simple site, but the emphasis is that active mindfulness aware people can have a readily available resourse based in their local area. The intention is to include some self administered music and mindfulness videos on the about_us page. A table with meeting dates will be made available on the about_us page so that active mindfulness people can meet up on a regular basis and share their stories and hopefully support each other.
 
 Strategy
 
-The aim is to build a relevant website that adds to the existing community of mindfullness websites that are currently on the Net. The website will be based on research 
+The aim is to build a relevant website that adds to the existing community of mindfulness websites that are currently on the Net. The website will be based on research 
 of information currently available on well known sites. This site aims to be different in that it is completely free and does not generate a income. Though donations towards it's upkeep are welcome. The main focus will be B 2 C, as its the ordinary persons struggling through life who will benefit the most. There is a opportunity that a community can be developed from a self help group that will be created within the website. The website will be managed by Michael Dunlop on a voluntary basis.
 
 Scope Plane
@@ -25,7 +25,7 @@ The design shall be consistent through out the web site with the design structur
 
 Skeleton Plane
 
-The site will be compliant with visual conventions and the user experience will get what they need when they want it. It is generally accepted that for most users the system is the UI, they will assess the value of the site by what they see. The site will initially consist of four pages packed full of information and will be compliant with different screen sizes, such as mobile phones and tablets.
+The site will be compliant with visual conventions and the user experience will get what they need when they want it. It is generally accepted that for most users the system is the UI, they will assess the value of the site by what they see. The site will initially consist of three pages packed full of information and will be compliant with different screen sizes, such as mobile phones and tablets.
 
 Surface Plane
 
@@ -45,7 +45,7 @@ two more images were obtained from the same website linked above. I then added b
 
 I completed the sign_up page by using the work i had done on love running as a starting point. The code was my own, so i dont see it as plagurism and it has been changed to reflect a fresh stamp of creativity. I added a new background image that was very befitting for a mindfulness website. https://unsplash.com/s/photos/mindfulness. This images change regularly so you may not see mine there.
 
-I then added a copyright notice to the bottom of my web pages. i found i was unable to use the same piece of code for all pages, so had to seperately format them to fit at the centre bottom of each page.
+I then added a created by notice to the bottom of my web pages. i found i was unable to use the same piece of code for all pages, so had to seperately format them to fit at the centre bottom of each page.
 
 i also added a table to about us, informing readers of upcoming mindfullness events for November and December of this year.
 below the table i copied and pasted a video link with a inbedded video on mindfullness <iframe width="600" height="470" src="https://www.youtube.com/embed/AapsmyVBinA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>. This code was copied straight from its source https://mindfulnessexercises.com/self-discipline-through-mindfulness-how-to-become-more-disciplined/. 
@@ -465,6 +465,38 @@ Last thing on my website was to create css for the allowance of different screen
              
              
         }
+
+        @media screen and (max-width: 600px) {
+
+            #main_heading,
+            #navigation_links {     
+            clear:left;
+            float:left;
+            margin-left: 1.0rem;
+            margin-bottom: 1.0rem;
+            line-height: 1.0rem;
+            
+            }
+            #mindfulness-image, #mindfulness2, #mildfundnes {
+                width: 90%;
+                height: 100%;
+                margin:auto;
+            }
+            .table-style {
+                    width: 90%;
+                    float: left;
+                    padding: 0.2rem;
+                    margin: 0 auto;   
+                 }  
+                 .video {
+                    width: 90%;
+                    float: left;
+                    padding: 0.2rem;
+                    margin: 0 auto;  
+                 }
+                 
+                 
+            }
 
 TESTING
 
