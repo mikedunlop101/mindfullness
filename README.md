@@ -53,8 +53,259 @@ i then added semantics to the sign-up page, namely fieldset and legend. This was
 
 I did some work on the screen sizes and ran into some difficulties. The images were working to a certain extent, but i found it difficult to get them how i wanted. i decided to ask my mentor when i next meet with him in a weeks time. Next on my list was to validate my HTML code through the W 3C Valdidator service. I had to make a few minor changes but my code was basically clean. I did the same for CSS code validation.
 
+
+Basically the index.html page was built up by using trial and error. I based my navigation code on the love running website, but as i grew more confident used display: flex; to align my navigation. the navigation html was added as follows.
+
+<body>
+    <header>
+        <div>
+        <a href="index.html">
+            <h1 id="main_heading">Mindfulness in Swindon</h1>
+        </a>
+       <nav>
+            <ul id="navigation_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">Videos</a></li>
+                <li><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+            
+
+        </nav>
+        </div>
+    </header>
+
+    The navigation html code also needed styling with CSS. which i used the following code for.
+#main_heading,
+#navigation_links {
+    line-height: 80px;
+}
+
+#navigation_links {
+    font-size: 125%;
+    text-rendering: geometricPrecision;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-top: auto;
+}
+
+#navigation_links li {
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#navigation_links a {
+    text-decoration: none;
+}
+
+I then added some introductory text into the subject of mindfulness and centered it within the html page. the code used for this was as follows.
+
+<section id="mindfulness-block">
+           <div> 
+            
+                
+            </div>
+                
+            <div class="center-text">
+
+                <div class="text-block"><h2><span>What is Mindfulness</span></h2> 
+                    <hr>
+                <p >Mindfulness is a technique used by millions of people to control how they feel about themselves.
+                    Its core benefit is the practicing person can concentrate on the here and now. Essentially what is going on now and chanelling ones feelings
+                    so that external influences dont negatively affect or have detrimental consequences. Its basically a form of meditation.
+                    Doing Mindfulness includes breathing exercises, guided meditations and stress reduction relaxation.Mindfulness can be practiced using thought processes but can also
+                    be used with the aid of a prop like a video with relaxing mindfulness music. I personally like videos and i will be putting the 
+                    providing a link to a great source of a free relaxing video.
+                    </p>
+                </div>
+                <div class="text-block">
+                    <h2>Aim Of This website</h2>
+                    <hr>
+                    <p>The aim of this website is to empower you to take the steps you need to learn mindfulness. Perhaps even teachig it to others.
+                        Helping the Swindon community. the main NHS system is overwhelmed dealing with Covid 19, so we must do it for ourselves and help each other.
+                    </p>
+                </div>
+
+            </div>
+
+
+This css coding for this was as follows
+
+.center-text {
+    text-align: center;}
+    
+This was followed by three images that were floated to the right. the html code is added below
+
+<div id="images">
+            <img src="assets/images/mindfulness-image.jpg" alt="mindfulness image" id="mindfulness-image" >
+            
+            <img src="assets/images/mindfulness2.jpg" alt="mindfulness with tea" id="mindfulness2">
+            
+            <img src="assets/images/mildfundnes.jpg" alt="mindfulness image" id="mildfundnes">
+            
+
+        </div>
+
+and the css was
+
+#images {
+    float:right;
+   
+}
+
+#mindfulness-image {
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10%;
+    border-color: #000;
+    
+
+}
+
+#mindfulness2 {
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10%;
+    border-color: #000;
+}
+
+#mildfundnes {
+    width: 450px;
+    height: 350px;
+    float:right;
+    padding: 20px;
+    border-radius: 10%;
+    border-color: #000;
+
+
+}
+
+the next thing i did was add some more text to the bottom right handside of the index.html web page. This text was css styled as follows.
+
+#lower-right-text {
+    padding-top: 45px;
+    float: right;
+    width: 40%;
+}
+
+Lastly i created a footer that said created by Michael Dunlop. i did originally put a copyright notice up, but on advise from my mentor i removed it and replaced it with the above text. i also added a awesome font, representing a heart. the html was as follows.
+
+<footer class="footer-bottom"> <p><i class="fas fa-heart">Created by Michael Dunlop</i></p>
+        
+    
+    
+    </footer>
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+
+
+the css used for this was as follows.
+
+.footer-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 40%;
+}
+.footer-bottom p{
+    padding-top: 440px;
+    text-align: right;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.3rem;
+
+
+}
+
+that completes the index page of my website.
+
+
+
+
+
 ![index.html](https://raw.githubusercontent.com/mikedunlop101/mindfullness/main/documentation/screenshots/Picture1.png)
 
+Work on the about-us webpage began with copying and pasting the navigation elements of index.html. The code can be seen in the index.html section above in this readme file.
+
+a table was added and used because its a good structural way to group data together for meaningful purposes. The html code used was as follows.
+
+<section id="about-us-title"> <h3>We Meet Regularaly</h3><table-caption>Why Not Join One Of Our Events</table-caption>
+        <!--add table-->
+        <div class="table-style">
+            <table>
+                <tr>
+                  <th>Introduction</th>
+                  <th>Event</th>
+                  <th>Date</th>
+                </tr>
+                <tr>
+                  <td><span>Anybody who lives in the Swindon area has a opportunity to
+                      develop their mindfulness skills and to become a practicing instructor
+                  </span></td>
+                  <td><span>Toothill community centre</span></td>
+                  <td><span>Every Sunday 11 am during Novemeber and December 2021</span></td>
+                </tr>
+                <tr>
+                  <td><span>Coffee evening and A Chance to get together to exchange experiences </span></td>
+                  <td><span>Costa Coffee in West Swindon</span></td>
+                  <td><span>Every Friday 7pm during November and December</span></td>
+                </tr>
+              </table> 
+
+
+
+
+        </div>
+
+Some styling was also included and that was added using CSS, which was as follows.
+
+ .table-style {
+        width: 600px;
+        height:max-content;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 auto;
+
+        
+    }
+
+
+A Iframe mindfulness video was also added below the table. this was added to give members of the website a taste of mindfulness. the intention is to regularly change the video and to keep subscribers well informed in useful ways to meditate in a mindfulness state. . The html used for this was as follows.
+
+ <div class="video">
+            <iframe width="600" height="470" src="https://www.youtube.com/embed/AapsmyVBinA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+
+some css styling was also added to the mindfulness video.
+
+.video {
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     height: 180vh;
+     
+    }   
+.video iframe {
+    margin-bottom: 60%;
+    
+}
+
+that concludes the about-us web page.
+
+       
+
+
+
+![about-us.html](https://raw.githubusercontent.com/mikedunlop101/mindfullness/d3283d3b9ef28079952ebccea5bc78e38f815a6a/documentation/screenshots/Picture2.png)
+
+
+![sign-up](https://raw.githubusercontent.com/mikedunlop101/mindfullness/d3283d3b9ef28079952ebccea5bc78e38f815a6a/documentation/screenshots/Picture3.png)
 
 
 
