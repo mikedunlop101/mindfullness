@@ -288,13 +288,5 @@ h3 {
                 margin: 0 auto;  
              }
              
-             .footer-bottom-about-us  {
-                display:flex;
-                justify-content: center;
-                align-items: flex-end;
-                position: sticky;
-                bottom: -100vh;
-                    
-    
-                 }
+             
         }
