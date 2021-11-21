@@ -1,5 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+Link to website https://mikedunlop101.github.io/mindfullness/index.html
+link to website files https://github.com/mikedunlop101/mindfullness
 Welcome mikedunlop101,
 
 MY Mindfullness Project
@@ -369,6 +370,8 @@ The css used was as follows.
     background-color: blueviolet;
     color: #fff;
 }
+
+The footer (created by Michael Dunlop) was lastly added with the following CSS code
 #footer-bottom-sign-up {
     display: flex;
     justify-content: center;
@@ -387,7 +390,81 @@ The css used was as follows.
 
 ![sign-up](https://raw.githubusercontent.com/mikedunlop101/mindfullness/d3283d3b9ef28079952ebccea5bc78e38f815a6a/documentation/screenshots/Picture3.png)
 
+Last thing on my website was to create css for the allowance of different screen sizes. This mostly worked well, but the presentation of the smaller screens proved to be challenging. I made a best effort using the following CSS code that originated from Love running but was then changed to suit my particular website
 
+ @media screen and (max-width: 1200px) {
+         #mindfulness-block {
+             width: 65%;
+             height: 1200px;
+             margin: 0 auto;
+         } 
+         html, body {
+            height: 1200px;
+            font-family: arial, sans-serif;
+            clear: left;
+            background: url("../images/background-image2.jpg") no-repeat;
+            background-size: cover;
+            background-position: center;
+            } 
+         
+         #images {
+             padding: 2rem 0.0rem;
+             margin: 0 auto;
+         } 
+         #mindfulness-image, #mindfulness2, #mildfundnes {
+             width: 31%;
+             float: left;
+             padding: 0.2rem;
+             margin: 0 auto;
+
+         }
+         #lower-right-text {
+             width: 100%;
+             float: left;
+             padding: 0rem;
+             
+         }
+         .footer-bottom p {
+            display:flex;
+            justify-content: center;
+            align-items: flex-end;
+
+             }
+
+             
+        }
+
+        @media screen and (max-width: 950px) {
+
+        #main_heading,
+        #navigation_links {     
+        clear:left;
+        float:left;
+        margin-left: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5rem;
+        
+        }
+        #mindfulness-image, #mindfulness2, #mildfundnes {
+            width: 90%;
+            height: 400px;
+            margin:auto;
+        }
+        .table-style {
+                width: 90%;
+                float: left;
+                padding: 0.2rem;
+                margin: 0 auto;   
+             }  
+             .video {
+                width: 90%;
+                float: left;
+                padding: 0.2rem;
+                margin: 0 auto;  
+             }
+             
+             
+        }
 
 TESTING
 
