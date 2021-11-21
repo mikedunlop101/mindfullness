@@ -305,6 +305,86 @@ that concludes the about-us web page.
 ![about-us.html](https://raw.githubusercontent.com/mikedunlop101/mindfullness/d3283d3b9ef28079952ebccea5bc78e38f815a6a/documentation/screenshots/Picture2.png)
 
 
+
+Lastly the sign-up page was designed using a warm background image of peace and tranquility and with a form that people could sign up to for future news and events. there is a check box that enables those who register to subscribe to a newsletter that will be sent to their email address. the html code used for the sign up page is as follows.
+
+ <section class="opt_in_form">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="register">
+            <fieldset><legend><h2>Join Swindon Mindfulness Group</h2></legend>
+        <label for="first_name">First Name</label>
+        <input id="first_name" name="first_name" type="text" class="text" required>
+        
+        <label for="last_name">Last Name</label>
+        <input id="last_name" name="last_name" type="text" class="text" required>
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" class="text" required>
+        
+        <label for="opt_in">Opt in for newsletters</label>
+        <input type="checkbox" id="opt_in" name="opt_in" >
+        </fieldset>
+        
+        <input class="opt_in" type="submit" value="Submit">
+    </form></section>
+
+The css used was as follows.
+
+.register {
+
+    margin: 10% 10% 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 450px;
+    position: absolute;
+    left: 15%;
+    padding: 35px;
+
+}
+
+.register h2 {
+    color: rgb(12, 11, 11);
+    margin-bottom: 30px;
+}
+
+/*form elements styling */
+.text {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    font-weight: bold;
+}
+
+#opt_in {
+    margin-top: 20px;
+    padding: 12px 30px 12px 30px;
+    text-align: center;
+    font-size: 110%;
+    background-color: blueviolet;
+    color: #fff;
+    display: block;
+}
+
+#opt_in:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
+#footer-bottom-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color:#fff;
+    font-size: 1.3rem;
+    padding-bottom: 83%;}
+
+
+    
+
+
 ![sign-up](https://raw.githubusercontent.com/mikedunlop101/mindfullness/d3283d3b9ef28079952ebccea5bc78e38f815a6a/documentation/screenshots/Picture3.png)
 
 
