@@ -505,7 +505,23 @@ Run Website on different screen sizes.... This partially works. the website is f
 check image alt scripts are running correctly. i did this by distorting the image addresses to force up the alt image messages. alt messages display correctly.
 test the sign up form. input relevant data into form inputs and press submit. Form works well
 test form with unexpected data entry including incorrect email address. result is a pop up message saying a recognised email format is required.
-test form first name. So long as characters are input the form accepts entry on submittion. same is the case with last name. This is a area for future development using javascript.
+test form first name. So long as characters are input the form accepts entry on submittion. same is the case with last name. This is a area for future development using javascript. tested code using Html W3C validator and CSS jigsaw validator, made a few changes and the code is now clean.
+
+Credits:
+
+Love Running Website was used as a starting point for navigation, the sign-up page and the screen sizes. But i must add that the code in the sign up page was my own work and has not been marked before. most of the code used from love running was completely revamped
+
+images for the background sign-up page were obtained from https://www.google.com/search?q=background+mindfulness+images&client=firefox-b-d&tbm=isch&source=iu&ictx=1&fir=0VaTMb8-fVqBAM%252Cd9YMEWS2ltOIoM%252C_%253BX8aPN8znMn8vaM%252CW0K1LHqAjaYYSM%252C_%253B-kPDLdJ6mlRwQM%252CbnVimVxlqjL7uM%252C_%253B_QMrAvJ3WEF9NM%252C5lSMAQ3cQDsmsM%252C_%253BPzRXsGfI3I3SwM%252CVj-LG71xNghXXM%252C_%253BuwWPkZg_Gfa0XM%252CbnVimVxlqjL7uM%252C_%253B3tsRzTOZqp5XEM%252CbgSx-jmh5ZoCxM%252C_%253B28XzOExTmkr_5M%252CczSOBlFDzc5gvM%252C_%253Bbp_Ti1HaDqjjZM%252C5lSMAQ3cQDsmsM%252C_%253BryAsjKGtUbRytM%252CVj-LG71xNghXXM%252C_%253B9SXk02OxxKi37M%252C-pk5ggifZ_itfM%252C_%253B_1DgIBa9wIfISM%252C-pk5ggifZ_itfM%252C_&vet=1&usg=AI4_-kQ42SD_JgeUTV6oagKZNOX9U1xJVQ&sa=X&ved=2ahUKEwjp_Mz1lvLzAhWQT8AKHdLxCVYQ9QF6BAgFEAE&biw=1536&bih=711&dpr=1.25#imgrc=9SXk02OxxKi37M
+
+image for background of index.html and about-us.html were obtained from https://www.google.com/search?q=background+mindfulness+images&client=firefox-b-d&tbm=isch&source=iu&ictx=1&fir=0VaTMb8-fVqBAM%252Cd9YMEWS2ltOIoM%252C_%253BX8aPN8znMn8vaM%252CW0K1LHqAjaYYSM%252C_%253B-kPDLdJ6mlRwQM%252CbnVimVxlqjL7uM%252C_%253B_QMrAvJ3WEF9NM%252C5lSMAQ3cQDsmsM%252C_%253BPzRXsGfI3I3SwM%252CVj-LG71xNghXXM%252C_%253BuwWPkZg_Gfa0XM%252CbnVimVxlqjL7uM%252C_%253B3tsRzTOZqp5XEM%252CbgSx-jmh5ZoCxM%252C_%253B28XzOExTmkr_5M%252CczSOBlFDzc5gvM%252C_%253Bbp_Ti1HaDqjjZM%252C5lSMAQ3cQDsmsM%252C_%253BryAsjKGtUbRytM%252CVj-LG71xNghXXM%252C_%253B9SXk02OxxKi37M%252C-pk5ggifZ_itfM%252C_%253B_1DgIBa9wIfISM%252C-pk5ggifZ_itfM%252C_&vet=1&usg=AI4_-kQ42SD_JgeUTV6oagKZNOX9U1xJVQ&sa=X&ved=2ahUKEwjp_Mz1lvLzAhWQT8AKHdLxCVYQ9QF6BAgFEAE&biw=1536&bih=711&dpr=1.25#imgrc=5J62OIjPB2fcDM
+
+3 images for index.html were obtained from https://www.google.com/search?q=free+mindfulness+images&tbm=isch&ved=2ahUKEwiH4oK-yqz0AhXK_IUKHTaqAYQQ2-cCegQIABAA&oq=free+mindfulness+images&gs_lcp=CgNpbWcQAzIFCAAQgAQyCAgAEAcQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeOgQIABBDOgYIABAHEB46CAgAEAgQBxAeUOo8WMJNYPNfaABwAHgAgAFbiAHkA5IBATaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=BN-bYYfQN8r5lwS21IagCA&bih=711&biw=1536&client=firefox-b-d
+
+lastly the occasional use of google helped me with the syntax of my code.
+
+
+Bugs.
+The main problem i have with the site is the scaling down to mobile phone screen sizes. Particularly my footer. It was so bad i actually removed the footer from the about-us page. To overcome this problem i will next time design from mobile screen sizes upwards and will try to make my design be completely display:flex combatible
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
